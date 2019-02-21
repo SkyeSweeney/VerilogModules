@@ -1,5 +1,5 @@
 //
-// Generate a pWM signal.
+// Generate a PWM signal.
 // The primary counter is clocked by the clk signal.
 // When the counter reaches tc, it resets back to zero.
 // If the counter is less than t0, the output is high.
