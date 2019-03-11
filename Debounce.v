@@ -12,7 +12,7 @@ module debounce #(parameter DIV=50_000_000/50/8) (
     output reg  clean);
 
     reg [7:0]  shift;
-    reg [31:0] cnt;
+    reg [16:0] cnt;
 
     always @ (posedge clk)
       begin
