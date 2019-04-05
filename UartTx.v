@@ -10,8 +10,8 @@
 //----------------------------------------------------------------------
   
 module uart_tx 
-  #(parameter BAUD  = 115200,
-    parameter CLOCK = 50000000)
+  #(parameter BAUD  = 115_200,
+    parameter CLOCK = 50_000_000)
   (
    input            clk,        // System clock
    input            rst,        // System reset
